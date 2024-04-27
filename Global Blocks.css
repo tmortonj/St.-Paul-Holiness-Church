@@ -1,0 +1,147 @@
+/*Hero Block and its affiliated content*/
+.hero_block{
+    height: 480px;
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.hero_block h1{
+    display: inline-block;
+    color: white;
+    font-size: 5rem;
+}
+
+/*Banner Block and its affiliated content*/
+.banner_block{
+    background-color: #7D0A0A ;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    margin-bottom: 40px;
+}
+
+.bannertext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 70px 0px 40px;
+    width: 75%;
+}
+
+.bannertext>h2{
+    margin-bottom: 10px;
+}
+
+.bannerimage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.churchlogo_container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
+}
+
+.churchlogo{
+    height: 100%;
+    width: 100%;
+}
+
+/* Fifty-Fifty Block and its affilated content*/
+.ffblock{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.ffblock_image{
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.ffblock_text{
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.ffblock_text p{
+    margin: 15px 50px 0px 0px;
+}
+
+.ffblock_text h2{
+    display: flex;
+    width: fit-content;
+}
+
+/*Full Width Image Block and its affiliated content*/
+.fullwidthimage_block{
+    width: 100%;
+    height: 590px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Rich Text Block and its affiliated content*/
+.richtext_block{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+/*Contact Cards and its affiliated content*/
+.contactcards_container{
+    display: grid;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contactcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    gap: 20px;
+    font-weight: 500;
+}
+
+#card_one{
+    border-right: solid 1.5px black;
+}
+
+#card_two{
+   padding-top: 16px; 
+}
+
+#card_three{
+    border-left: solid 1.5px black;
+}
+
+.contactcard_icons{
+    height: 60px;
+    width: 60px;
+}
