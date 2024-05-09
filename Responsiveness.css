@@ -1,0 +1,52 @@
+@media screen and (max-width: 1280px){
+    
+}
+
+@media screen and (max-width: 960px){
+    .fullwidthimage_block{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .ffblock_text p{
+        margin: 15px 0px 0px 0px;
+    }
+    
+}
+
+@media screen and (max-width: 884px){
+    .bannerimage{
+        visibility: hidden;
+        width: 1%;
+    }
+
+    .bannertext{
+        width: 99%;
+        padding: 15px 40px 15px 40px;
+    }
+
+    .hero_block{
+        height: 400px;
+    }  
+}
+
+@media screen and (max-width: 797px) {
+    .bannertext{
+        padding: 15px 15px 15px 40px;
+    }
+
+    .heroblock{
+        height: 350px;
+    }
+    
+}
+
+
+@media screen and (max-width: 680px){
+    
+}
+
+@media screen and (max-width: 500px){
+    
+}
